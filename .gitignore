@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+garbage-app/node_modules/
+
+# Large datasets - keep locally, don't push to GitHub
+data/taco_raw/
+data/taco_yolo/
+data/taco_yolo_final/
+data/garbage_raw/
+data/garbage_yolo/
+data/garbage_yolo_merged/
+data/garbage_existing_yolo/
+
+# Training outputs
+runs/
+
+# Large model files
+*.pt
+*.pth
+
+# Temporary files
+*.log
+.DS_Store
